@@ -1,0 +1,6 @@
+{
+  "name": "Monte Carlo Pavilion 3D",
+  "description": "A luxury 3D play-money casino salon featuring European Roulette, Blackjack, and Mechanical Slots in WebGL with an AI Strategy Advisor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
