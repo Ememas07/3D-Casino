@@ -539,9 +539,13 @@ export default function App() {
         <div className="fixed inset-0 z-10 pointer-events-none">
           <div className="flex items-center justify-between px-3 sm:px-4 md:px-6 pt-3.5 gap-2 sm:gap-4">
             <div className="pointer-events-auto min-w-0 flex items-center gap-2 sm:gap-3 px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-lg border border-[#d4af37]/25 bg-[#141019]/92">
-              <span className="font-display text-xs sm:text-sm md:text-base font-semibold text-[#f6f2e9] truncate">
-                Monte Carlo Pavilion
-              </span>
+              <a
+                href="/"
+                title="Return to Hub"
+                className="font-display text-xs sm:text-sm md:text-base font-semibold text-[#f6f2e9] truncate hover:text-[#d4af37] transition-colors cursor-pointer inline-flex items-center gap-1.5"
+              >
+                <span className="text-xs text-[#d4af37]">←</span> Monte Carlo Pavilion
+              </a>
               <span className="hidden sm:inline text-xs text-[#9c9384] whitespace-nowrap">
                 · Virtual Play Chips
               </span>
@@ -762,6 +766,12 @@ export default function App() {
                 >
                   Return to Title Screen
                 </button>
+                <a
+                  href="/"
+                  className="w-full py-2 rounded-lg text-xs text-[#d4af37] hover:text-[#f6f2e9] cursor-pointer text-center block"
+                >
+                  Exit to AI Studio Hub
+                </a>
               </div>
             </motion.div>
           </motion.div>

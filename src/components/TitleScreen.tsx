@@ -94,13 +94,22 @@ export function TitleScreen({ onStart }: TitleScreenProps) {
             </svg>
           </motion.div>
 
+          <a
+            href="/"
+            title="Return to Hub"
+            className="inline-flex items-center gap-1.5 text-xs uppercase tracking-wider text-[#d4af37] hover:text-[#f6f2e9] font-semibold mb-2 transition-colors cursor-pointer"
+          >
+            ← Return to Hub
+          </a>
           <motion.h1
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.12 }}
             className="font-display text-4xl md:text-6xl font-semibold tracking-tight text-[#f6f2e9] leading-[1.08] [text-wrap:balance]"
           >
-            Monte Carlo Pavilion
+            <a href="/" title="Return to Hub" className="hover:text-[#d4af37] transition-colors cursor-pointer">
+              Monte Carlo Pavilion
+            </a>
           </motion.h1>
 
           <motion.p
